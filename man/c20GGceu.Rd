@@ -1,20 +1,20 @@
-\name{c20GGceu}
-%c15GGceu.rda    c7GGceu.rda     chr7meta.rda    racHMceu20.rda
-%c20GG.rda       chr15meta.rda   geneLocs.rda    racHMceu7.rda
-%c20GGceu.rda    chr20meta.rda   racHMceu15.rda
+\name{chr20GGceu}
+%chr15GGceu.rda    chr7GGceu.rda     chr7meta.rda    racHMceu20.rda
+%chr20GG.rda       chr15meta.rda   geneLocs.rda    racHMceu7.rda
+%chr20GGceu.rda    chr20meta.rda   racHMceu15.rda
 %
-\alias{c20GGceu}
-\alias{c7GGceu}
-\alias{c15GGceu}
+\alias{chr20GGceu}
+\alias{chr7GGceu}
+\alias{chr15GGceu}
 \title{representations of HapMap snp data + expression data}
 \description{
 representations of HapMap snp data + expression data
 }
 \usage{
-data(c20GGceu)
+data(chr20GGceu)
 }
 \details{
-These instances of class \code{\link{ggExprSet}} are
+These instances of class \code{\link[GGtools]{racExSet}} are
 created from two basic sources.  
 
 First, V. Cheung and R. Spielman
@@ -30,7 +30,7 @@ ftp site in late July 2006.  Full provenance information
 still to be supplied.
 }
 \value{
-instances of class \code{\link{ggExprSet}}
+instances of class \code{\link[GGtools]{racExSet}}
 }
 \references{ 
 Cheung VG., Spielman RS., Ewens KG., Weber TM., Morley M & Burdick JT.: Mapping determinants of human gene expression by regional and whole genome association. Nature, 437: 1365-1369, 2005
@@ -42,9 +42,9 @@ Cheung VG., Spielman RS., Ewens KG., Weber TM., Morley M & Burdick JT.: Mapping 
 %\seealso{  }
 
 \examples{
-data(c20GGceu)
+data(chr20GGceu)
 # be patient
-exprs(c20GGceu)[1:4,1:4]
-snps(c20GGceu)[1:4,1:4]
+exprs(chr20GGceu)[1:4,1:4]
+snps(chr20GGceu)[1:4,1:4]
 }
 \keyword{ models }

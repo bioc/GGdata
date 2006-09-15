@@ -6,14 +6,12 @@
 \alias{chr20meta}
 \alias{chr7meta}
 \alias{chr15meta}
-\alias{c20gt}
 \title{representations of HapMap snp metadata}
 \description{
 representations of HapMap snp metadata
 }
 \usage{
 data(chr20meta)
-data(c20gt)
 }
 \details{
 The ``meta'' structures are instances of class \code{\link{data.frame}},
@@ -38,8 +36,5 @@ HapMap project
 data(chr20meta)
 # be patient
 chr20meta[1:4,]
-data(c20gt)
-dim(c20gt)
-c20gt[1:4,1:4]
 }
 \keyword{ models }
