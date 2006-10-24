@@ -3,9 +3,30 @@
 %chr20GG.rda       chr15meta.rda   geneLocs.rda    racHMceu7.rda
 %chr20GGceu.rda    chr20meta.rda   racHMceu15.rda
 %
-\alias{chr20GGceu}
-\alias{chr7GGceu}
-\alias{chr15GGceu}
+\alias{chr1GGceuRMA}
+\alias{chr2GGceuRMA}
+\alias{chr3GGceuRMA}
+\alias{chr4GGceuRMA}
+\alias{chr5GGceuRMA}
+\alias{chr6GGceuRMA}
+\alias{chr7GGceuRMA}
+\alias{chr8GGceuRMA}
+\alias{chr9GGceuRMA}
+\alias{chr10GGceuRMA}
+\alias{chr11GGceuRMA}
+\alias{chr12GGceuRMA}
+\alias{chr13GGceuRMA}
+\alias{chr14GGceuRMA}
+\alias{chr15GGceuRMA}
+\alias{chr16GGceuRMA}
+\alias{chr17GGceuRMA}
+\alias{chr18GGceuRMA}
+\alias{chr19GGceuRMA}
+\alias{chr20GGceuRMA}
+\alias{chr21GGceuRMA}
+\alias{chr22GGceuRMA}
+\alias{chrXGGceuRMA}
+\alias{chrYGGceuRMA}
 \title{representations of HapMap snp data + expression data}
 \description{
 representations of HapMap snp data + expression data
@@ -17,12 +38,9 @@ data(chr20GGceu)
 These instances of class \code{\link[GGtools]{racExSet}} are
 created from two basic sources.  
 
-First, V. Cheung and R. Spielman
-provided images of the expression data for the 58 CEPH individuals
-studied in their Oct 2005 Nature letter.  This is expression
-data created using the hgfocus platform.  Details of preprocessing
-or provenance still to be supplied; this particular data structure
-was distributed at CDATA-06 in June 2006 at Cold Spring Harbod.
+First, the expression data for 58 unrelated CEPH founders
+were obtained from GEO, and RMA was run on the associated CEL
+files.
 
 Second, data on forward non-redundant SNPs in 48 individuals
 among the 58 mentioned above were obtained from the HapMap
@@ -42,9 +60,9 @@ Cheung VG., Spielman RS., Ewens KG., Weber TM., Morley M & Burdick JT.: Mapping 
 %\seealso{  }
 
 \examples{
-data(chr20GGceu)
+data(chr20GGceuRMA)
 # be patient
-exprs(chr20GGceu)[1:4,1:4]
-snps(chr20GGceu)[1:4,1:4]
+exprs(chr20GGceuRMA)[1:4,1:4]
+snps(chr20GGceuRMA)[1:4,1:4]
 }
 \keyword{ models }
