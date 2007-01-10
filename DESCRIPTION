@@ -2,8 +2,9 @@ Package: GGdata
 Title: software and data for genetical genomics
 Version: 0.0-6
 Author: stvjc <stvjc@channing.harvard.edu>
-Description: data exemplars dealing with hapmap SNP reports, GWAS, etc.
-Depends: R (>= 2.4.0), Biobase (>= 1.11.41), hgfocus
 Maintainer: stvjc <stvjc@channing.harvard.edu>
+Description: data exemplars dealing with hapmap SNP reports, GWAS, etc.
+biocViews: ExperimentData
+Depends: R (>= 2.4.0), Biobase (>= 1.11.41), hgfocus
 LazyData: no
 License: LGPL
