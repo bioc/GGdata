@@ -32,7 +32,7 @@
 representations of HapMap snp data + expression data
 }
 \usage{
-data(chr20GGceu)
+data(chr20GGceuRMA)
 }
 \details{
 These instances of class \code{\link[GGtools]{racExSet}} are

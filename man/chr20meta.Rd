@@ -1,11 +1,30 @@
 \name{chr20meta}
-%c15GGceu.rda    c7GGceu.rda     chr7meta.rda    racHMceu20.rda
-%c20GG.rda       chr15meta.rda   geneLocs.rda    racHMceu7.rda
-%c20GGceu.rda    chr20meta.rda   racHMceu15.rda
-%
-\alias{chr20meta}
+\alias{chr1meta}
+\alias{df2snpMeta}
+\alias{snpMeta-class}
+\alias{chr2meta}
+\alias{chr3meta}
+\alias{chr4meta}
+\alias{chr5meta}
+\alias{chr6meta}
 \alias{chr7meta}
+\alias{chr8meta}
+\alias{chr9meta}
+\alias{chr10meta}
+\alias{chr11meta}
+\alias{chr12meta}
+\alias{chr13meta}
+\alias{chr14meta}
 \alias{chr15meta}
+\alias{chr16meta}
+\alias{chr17meta}
+\alias{chr18meta}
+\alias{chr19meta}
+\alias{chr20meta}
+\alias{chr21meta}
+\alias{chr22meta}
+\alias{chrXmeta}
+\alias{chrYmeta}
 \title{representations of HapMap snp metadata}
 \description{
 representations of HapMap snp metadata
@@ -14,14 +33,15 @@ representations of HapMap snp metadata
 data(chr20meta)
 }
 \details{
-The ``meta'' structures are instances of class \code{\link{data.frame}},
+The ``meta'' structures are 
 created from initial columns of HapMap chromosome-specific
-genotyping results for CEPH CEU participants.  The
-\code{c20gt} is a named matrix of unphased genotyping results.
+genotyping results for CEPH CEU participants.  
+%The
+%\code{c20gt} is a named matrix of unphased genotyping results.
 
 }
 \value{
-instances of class \code{\link{data.frame}}
+instances of class \code{"\linkS4class{snpMeta}"}
 }
 \references{ 
 HapMap project
