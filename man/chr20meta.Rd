@@ -25,6 +25,7 @@
 \alias{chr22meta}
 \alias{chrXmeta}
 \alias{chrYmeta}
+\alias{chrMmeta}
 \title{representations of HapMap snp metadata}
 \description{
 representations of HapMap snp metadata
