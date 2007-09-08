@@ -1,6 +1,6 @@
 Package: GGdata
 Title: software and data for genetical genomics
-Version: 0.0-7
+Version: 0.0-8
 Author: stvjc <stvjc@channing.harvard.edu>
 Maintainer: stvjc <stvjc@channing.harvard.edu>
 Description: data exemplars dealing with hapmap SNP reports, GWAS, etc.
