@@ -1,6 +1,6 @@
 Package: GGdata
 Title: software and data for genetical genomics
-Version: 0.0-9
+Version: 0.0-10
 Author: VJ Carey <stvjc@channing.harvard.edu>
 Maintainer: VJ Carey <stvjc@channing.harvard.edu>
 Description: data exemplars dealing with hapmap SNP reports, GWAS, etc.
@@ -8,4 +8,3 @@ biocViews: ExperimentData
 Depends: R (>= 2.4.0), Biobase (>= 1.11.41), GGtools, hgfocus, methods
 LazyData: no
 License: LGPL
-SaveImage: yes
