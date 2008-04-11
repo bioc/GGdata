@@ -5,7 +5,7 @@ Author: VJ Carey <stvjc@channing.harvard.edu>
 Maintainer: VJ Carey <stvjc@channing.harvard.edu>
 Description: data exemplars dealing with hapmap SNP reports, GWAS, etc.
 biocViews: ExperimentData
-Depends: R (>= 2.4.0), Biobase (>= 1.11.41), GGtools, 
-	snpMatrix, hgfocus.db, methods
+Depends: R (>= 2.6.0), Biobase (>= 1.11.41), GGtools, 
+	snpMatrix, illuminaHumanv1.db, ncdf, methods
 LazyData: no
 License: LGPL
