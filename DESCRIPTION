@@ -1,6 +1,6 @@
 Package: GGdata
 Title: software and data for genetical genomics
-Version: 0.0-12
+Version: 0.0-14
 Author: VJ Carey <stvjc@channing.harvard.edu>
 Maintainer: VJ Carey <stvjc@channing.harvard.edu>
 Description: data exemplars dealing with hapmap SNP reports, GWAS, etc.
