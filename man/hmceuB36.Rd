@@ -35,6 +35,8 @@ Cheung VG., Spielman RS., Ewens KG., Weber TM., Morley M & Burdick JT.: Mapping 
 data(hmceuB36)
 # be patient
 exprs(hmceuB36)[1:4,1:4]
-snps(hmceuB36)[1:4,1:4]
+# following is slow because of byte - allelecode conversion
+# needs work
+snps(hmceuB36, chrnum(2))[1:4,1:4]
 }
 \keyword{ models }
