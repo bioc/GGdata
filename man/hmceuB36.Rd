@@ -1,4 +1,5 @@
 \name{hmceuB36}
+\alias{hmceuB36}
 \title{representations of HapMap snp data + expression data}
 \description{
 representations of HapMap snp data + expression data
