@@ -1,11 +1,11 @@
 Package: GGdata
-Title: software and data for genetical genomics
-Version: 0.1.1
+Title: all 90 hapmap CEU samples, 47K expression, 4mm SNP
+Description: data exemplars dealing with hapmap SNP reports, GWAS, etc.
+Version: 0.99.2
 Author: VJ Carey <stvjc@channing.harvard.edu>
 Maintainer: VJ Carey <stvjc@channing.harvard.edu>
-Description: data exemplars dealing with hapmap SNP reports, GWAS, etc.
 biocViews: ExperimentData
-Depends: R (>= 2.6.0), methods, Biobase (>= 1.11.41), GGBase, GGtools,
+Depends: R (>= 2.6.0), methods, Biobase (>= 1.11.41), GGBase,
 	snpMatrix, illuminaHumanv1.db, AnnotationDbi
 LazyLoad: yes
 License: LGPL
