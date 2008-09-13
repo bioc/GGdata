@@ -36,7 +36,7 @@ data(hmceuB36)
 # be patient
 exprs(hmceuB36)[1:4,1:4]
 as(smList(hmceuB36)[[1]][1:4,1:4], "character")
-library(GG2)
+library(GGtools)
 tt = gwSnpTests(genesym("CPNE1")~male, hmceuB36, snpdepth(500))
 tt
 plot(tt)
