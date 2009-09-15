@@ -8,7 +8,7 @@ representations of HapMap snp data + expression data
 data(hmceuB36)
 }
 \details{
-These instances of class \code{\link[GGBase]{smlSet}} are
+These instances of class \code{\link[GGBase:smlSet-class]{smlSet}} are
 created from two basic sources.  
 
 First, the expression data for 90 CEU families in CEPH
