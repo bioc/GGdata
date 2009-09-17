@@ -15,15 +15,16 @@ First, the expression data for 90 CEU families in CEPH
 were obtained from SANGER GENEVAR project.
 
 Second, data on forward non-redundant SNPs in these individuals
-the HapMap build 36
-ftp site in march 2008.  Full provenance information
+the HapMap build 36 ftp site in march 2008.  Full provenance information
 still to be supplied.
 }
 \value{
-instances of class \code{\link[GGBase]{smlSet}}
+instances of class \code{\link[GGBase:smlSet-class]{smlSet}}
 }
 \references{ 
-Cheung VG., Spielman RS., Ewens KG., Weber TM., Morley M & Burdick JT.: Mapping determinants of human gene expression by regional and whole genome association. Nature, 437: 1365-1369, 2005
+Cheung VG., Spielman RS., Ewens KG., Weber TM., Morley M & Burdick JT.:
+\emph{Mapping determinants of human gene expression by regional and whole
+genome association.} Nature, 437: 1365-1369, 2005 
  }
 \author{Vince Carey <stvjc@channing.harvard.edu>}
 %\note{  }
