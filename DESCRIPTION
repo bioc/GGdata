@@ -6,6 +6,6 @@ Author: VJ Carey <stvjc@channing.harvard.edu>
 Maintainer: VJ Carey <stvjc@channing.harvard.edu>
 biocViews: ExperimentData, HapMap
 Depends: R (>= 2.6.0), methods, Biobase (>= 2.5.5), ff, GGBase,
-	snpMatrix2, illuminaHumanv1.db, AnnotationDbi
+	illuminaHumanv1.db, AnnotationDbi
 LazyLoad: yes
 License: LGPL
