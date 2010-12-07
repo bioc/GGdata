@@ -20,10 +20,12 @@ tested), call, and sessionInfo.
 %  ~~ possibly secondary sources and usages ~~
 %}
 \examples{
+\dontrun{  # requires bioc 2.7
 data(fheadFits)
 fheadFits
 fheadFits[["CPNE1"]]
 library(GGtools)
 topSnps(fheadFits[["CPNE1"]])[[20]]
+}
 }
 \keyword{datasets}

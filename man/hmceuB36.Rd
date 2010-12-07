@@ -33,6 +33,7 @@ genome association.} Nature, 437: 1365-1369, 2005
 %\seealso{  }
 
 \examples{
+\dontrun{  # requires bioc 2.7
 data(hmceuB36)
 # be patient
 exprs(hmceuB36)[1:4,1:4]
@@ -42,5 +43,6 @@ library(GGtools)
 tt = gwSnpTests(genesym("CPNE1")~male, hmceuB36, snpdepth(500))
 tt
 plot(tt)
+}
 }
 \keyword{ models }
