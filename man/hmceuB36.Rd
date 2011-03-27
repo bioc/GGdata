@@ -27,22 +27,20 @@ Cheung VG., Spielman RS., Ewens KG., Weber TM., Morley M & Burdick JT.:
 genome association.} Nature, 437: 1365-1369, 2005 
  }
 \author{Vince Carey <stvjc@channing.harvard.edu>}
-%\note{  }
+\note{ As of March 2011 the smlSet is no longer serialized.  Instead,
+use getSS("GGdata", [chrs]) to create an smlSet with all
+probes and selected chromosomes.  }
 
 
 %\seealso{  }
 
 \examples{
-\dontrun{  # requires bioc 2.7
-data(hmceuB36)
-# be patient
+hmceuB36 = getSS("GGdata", c("20", "21"))  # just 2 chromosomes
 exprs(hmceuB36)[1:4,1:4]
 as(smList(hmceuB36)[[1]][1:4,1:4], "character")
-library(ff)
 library(GGtools)
 tt = gwSnpTests(genesym("CPNE1")~male, hmceuB36, snpdepth(500))
 tt
 plot(tt)
-}
 }
 \keyword{ models }
