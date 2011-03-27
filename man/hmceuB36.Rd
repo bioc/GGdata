@@ -35,12 +35,14 @@ probes and selected chromosomes.  }
 %\seealso{  }
 
 \examples{
+library(GGtools)
 hmceuB36 = getSS("GGdata", c("20", "21"))  # just 2 chromosomes
 exprs(hmceuB36)[1:4,1:4]
 as(smList(hmceuB36)[[1]][1:4,1:4], "character")
 library(GGtools)
-tt = gwSnpTests(genesym("CPNE1")~male, hmceuB36, snpdepth(500))
-tt
-plot(tt)
+library(illuminaHumanv1.db)
+cptag = get("CPNE1", revmap(illuminaHumanv1SYMBOL))
+tt = eqtlTests(hmceuB36[probeId(cptag),] , ~male)
+topFeats(probeId(cptag), mgr=tt, ffind=1)
 }
 \keyword{ models }
