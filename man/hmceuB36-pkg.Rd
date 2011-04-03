@@ -1,6 +1,8 @@
 \name{hmceuB36}
-\docType{data}
+\docType{package}
 \alias{hmceuB36}
+\alias{hmceuB36-package}
+\alias{ex}
 \title{representations of HapMap snp data + expression data}
 \description{
 representations of HapMap snp data + expression data
@@ -31,8 +33,11 @@ genome association.} Nature, 437: 1365-1369, 2005
  }
 \author{Vince Carey <stvjc@channing.harvard.edu>}
 \note{ As of March 2011 the smlSet is no longer serialized.  Instead,
-use getSS("GGdata", [chrs]) to create an smlSet with all
-probes and selected chromosomes.  }
+use \code{getSS("GGdata", [chrs])} to create an smlSet with all
+probes and selected chromosomes.  There is an instance of
+\code{\link[Biobase]{ExpressionSet-class}} named \code{ex} in the
+\code{data} folder of this package that will be united with genotype data using
+\code{\link[GGtools]{getSS}}.  }
 
 
 %\seealso{  }
@@ -48,4 +53,4 @@ cptag = get("CPNE1", revmap(illuminaHumanv1SYMBOL))
 tt = eqtlTests(hmceuB36[probeId(cptag),] , ~male)
 topFeats(probeId(cptag), mgr=tt, ffind=1)
 }
-\keyword{ datasets }
+\keyword{ packages }
