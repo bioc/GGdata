@@ -1,14 +1,17 @@
 \name{hmceuB36}
+\docType{data}
 \alias{hmceuB36}
 \title{representations of HapMap snp data + expression data}
 \description{
 representations of HapMap snp data + expression data
 }
+\format{ExpressionSet and SnpMatrix instances to be combined using getSS}
 \usage{
-data(hmceuB36)
+# getSS("GGdata", "20")  # for example, to get full expression, + genotypes
+           # on chr20
 }
 \details{
-These instances of class \code{\link[GGBase:smlSet-class]{smlSet}} are
+Instances of class \code{\link[GGBase:smlSet-class]{smlSet}} are
 created from two basic sources.  
 
 First, the expression data for 90 CEU families in CEPH
@@ -45,4 +48,4 @@ cptag = get("CPNE1", revmap(illuminaHumanv1SYMBOL))
 tt = eqtlTests(hmceuB36[probeId(cptag),] , ~male)
 topFeats(probeId(cptag), mgr=tt, ffind=1)
 }
-\keyword{ models }
+\keyword{ datasets }
