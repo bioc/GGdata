@@ -19,8 +19,8 @@
 #     package=pkgname)))
 #  assign(obname, eset, envir=ns)
 #  namespaceExport(ns, obname)
-  cat(paste("To get a tailored smlSet, use getSS(\"", 
+  packageStartupMessage(paste("To get a tailored smlSet, use getSS(\"", 
    pkgname, "\", [chrvec])", sep=""), "\n")
-  cat("available chromosomes are named ",
+  packageStartupMessage("available chromosomes are named ",
         selectSome(cn), "\n")
 }
