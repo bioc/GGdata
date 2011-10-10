@@ -22,5 +22,5 @@
   packageStartupMessage(paste("To get a tailored smlSet, use getSS(\"", 
    pkgname, "\", [chrvec])", sep=""), "\n")
   packageStartupMessage("available chromosomes are named ",
-        selectSome(cn), "\n")
+        paste(selectSome(cn), collapse=", "), "\n")
 }
